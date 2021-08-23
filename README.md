@@ -1,6 +1,32 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<p>Este proceso puede tardar un poco. Lo que esta haciendo es descargando todas las bibliotecas de código que el proyecto necesita.</p>
+<p>Una vez haya concluido, estamos listos para echar a correr el servidor. Lo hacemos con el comando</p>
+<pre><code>$ npm <span class="hljs-built_in">run</span> start
+</code></pre>
+<p>Cuando el servidor comience, automáticamente va a abrir una pantalla en el navegador con la aplicación.</p>
+<p>Si todo salió bien, vas a ver una pantalla que dice “Hello, Platzi Badges”.</p>
+<p>En la próxima clase vas a aprender como fue que “Hello, Platzi Badges” llegó desde el código hasta la pantalla de tu navegador.</p>
+<p>*<a href="https://github.com/sparragus/platzi-badges" target="_blank" rel="nofollow noopener">Aquí</a> encuentras el repositorio.</p></div>
+
+# Clonar código de GitHub
+
+Para começar, no terminal temos que selecionar ou criar uma pasta onde queira salvar o projeto. Logo digite o seguinte:
+<pre><code>$ git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/cesarramirez1912/teste-pokemon/
+</code></pre>
+
+O código acima faz com que seja criado uma pasta chamada <code>teste-pokemon</code>.</p>
+É necessário que entremos na pasta onde esta o projeto.
+<pre><code>$ cd teste-<span class="hljs-keyword">pokemon
+</span></code></pre>
+Agora precisamos instalar as dependencias para poder ver funcionar o projeto. Executamos o seguinte comando: <code>npm</code>.</p>
+<pre><code>$ npm <span class="hljs-keyword">install</span>
+</code></pre>
+
+Obs: isto pode levar um bom tempo.
+Uma vez concluido, estamos prontos para fazer rodar o servidor. Executamos com o seguinte comando </p>
+<pre><code>$ npm <span class="hljs-built_in">run</span> start
+</code></pre>
 
 ## Available Scripts
 
