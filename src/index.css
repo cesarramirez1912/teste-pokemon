@@ -1,13 +1,52 @@
+:root {
+  --font: #333333;
+  --dark_gray: #828282;
+  --light_gray: #f2f2f2;
+  --red_primary: #e2350d;
+  --fire: #ee7f33;
+  --normal: #a9a778;
+  --water: #6890f0;
+  --grass: #78c84f;
+  --ice: #98d8d7;
+  --poison: #a040a1;
+  --ground: #e0c069;
+  --flying: #a790ef;
+  --bug: #a8b821;
+  --rock: #665e36;
+  --ghost: #705797;
+  --dragon: #724ef9;
+  --dark: #6f5848;
+  --steel: #b8b8d0;
+  --fairy: #f4c8e2;
+  --psychic: #e95587;
+  --electric: #f8cf32;
+  --fighting: #c03228;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1020px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

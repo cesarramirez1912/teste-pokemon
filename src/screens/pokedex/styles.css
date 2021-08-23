@@ -1,0 +1,149 @@
+.container-pokedex {
+  align-items: center;
+  overflow: hidden;
+}
+.order-p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  color: var(--dark_gray);
+  min-width: 100px;
+}
+.filters-sections {
+  align-items: baseline;
+  margin-right: 20px;
+}
+.space-items {
+  margin: 50px 0;
+}
+.tipo-style {
+  width: min-content;
+  padding: 3px 15px;
+  border-radius: 20px;
+  border: 1px solid var(--red_primary);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.sections {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.tipo-style p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: var(--red_primary);
+}
+.tipo-style-selected {
+  display: flex;
+  align-items: center;
+  width: min-content;
+  padding: 3px 15px;
+  padding-right: 12px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  background-color: var(--red_primary);
+  cursor: pointer;
+}
+.tipo-style-selected p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: white;
+  margin-right: 4px;
+}
+.grid-tipos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.pokemons-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.pokemons-sections::-webkit-scrollbar {
+  width: 10px;
+}
+
+.pokemons-sections::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: var(--red_primary);
+}
+.align-end {
+  align-items: end;
+}
+/*------------------TOGGLE--------------------------*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: var(--red_primary);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

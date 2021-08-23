@@ -1,0 +1,25 @@
+.selectWrapper {
+  border-radius: 36px;
+  display: flex;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid var(--red_primary);
+  align-items: center;
+  color: var(--red_primary);
+  padding: 0 14px;
+  justify-content: space-between;
+  min-width: 181px;
+}
+.selectBox {
+  color: var(--red_primary);
+  height: 39px;
+  border: 0px;
+  outline: none;
+  font-size: 14px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
